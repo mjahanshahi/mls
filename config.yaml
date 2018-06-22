@@ -1,0 +1,152 @@
+baseURL: #http://example.org/
+languageCode: en-us
+title: MLS
+theme: hugo-fresh
+
+params:
+  hero:
+    tagline: Welcome to MetaLogical Solutions!
+    subTagline: A consultancy offering technical training and consulting services to the minerals industries
+    buttonText: Click here
+    image: illustrations/worker.svg # Fix this
+    bottomIcons:
+    #- logos/clients/systek.svg
+    #- logos/clients/tribe.svg
+    #- logos/clients/kromo.svg
+    #- logos/clients/infinite.svg
+    #- logos/clients/gutwork.svg
+  navbar:
+    buttonText: Sign up
+    logo:
+      src: logos/fresh.svg #Fix
+      alt: #Main navbar logo 
+    links:
+    - text: About
+      url: /
+      #dropdown: true
+      #links:
+      #- The Team
+      #- Training
+      #- Contact
+    - text: Publications
+      url = /
+      #dropdown: true
+      #links:
+      #- Low Emission Steelmaking
+      #- Minor Elements & Low Grade Ores
+      #- Life Cycle Assessment
+      #- Metallurgical Reaction Kinetics
+      #- Slag-Refractory Interactions
+      #- Melt Thermodynamics
+      #- Slag Transport Properties
+      #- Slag Properties
+      #- Modelling Metallurgical Processes
+    - text: Presentations
+      url: /
+  
+  features:
+    tagline: We conduct a variety of technical training and consulting services
+    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    panels:
+    - title: Thermodynamics of high temperature systems
+      image: illustrations/icons/mouse-globe.svg #Fix
+      text: Improving reactions between metals, slags and refractories.
+      button:
+        text: Free Trial
+        url: /
+      delay: 1
+    - title: Metallurgical Process Optimization
+      image: illustrations/icons/laptop-cloud.svg #Fix
+      text: Enhancing process performance with respect to impurities, recovery of metals, refractory life and fuel consumption.
+      button:
+        text: Free Trial
+        url: /
+      delay: 2
+    - title: Development of Conceptual Processes
+      image: illustrations/icons/plug-cloud.svg #Fix
+      text: Value recovery from low grade complex ores and recycled materials.
+      button:
+        text: Free Trial
+        url: /
+      delay: 3
+    - title: Renewable Process Development
+      image: illustrations/icons/plug-cloud.svg #Fix
+      text: Using renewable carbonaceous fuels and reductants in metallurgical processes.
+      button:
+        text: Free Trial
+        url: /
+      delay: 4
+    
+  sellingPoints:
+    tagline: You're here because you want the best
+    points:
+    - title: Powerful and unified interface
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: laptop-globe
+    - title: Cross device Synchronisation
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Nomad System
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+  platform:
+    image: illustrations/mockups/app-mockup.png
+    tagline: One Platform to rule them All
+    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    buttonText: Get Started
+  clients:
+    tagline: Our Clients love us!
+    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    clientExamples:
+    - name: Irma Walters
+      position: Accountant
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      image: 1.png
+    - name: John Bradley
+      position: Financial Analyst
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      image: 2.png
+    - name: Gary Blackman
+      position: HR Manager
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      image: 3.png
+  contact:
+    tagline: Drop us a line or two!
+  footer:
+    image: fresh-white.svg
+    columns:
+    - title: Product
+      links:
+      - name: Discover features
+        url: "#"
+      - name: Why choose our Product?
+        url: "#"
+      - name: Compare features
+        url: "#"
+      - name: Our Roadmap
+        url: "#"
+      - name: Request features
+        url: "#"
+    - title: Docs
+      links:
+      - name: Get Started
+        url: "#"
+      - name: User guides
+        url: "#"
+      - name: Admin guide
+        url: "#"
+      - name: Developers
+        url: "#"
+    - title: Blogroll
+      links:
+      - name: Latest News
+        url: "#"
+      - name: Tech articles
+        url: "#"
+      - name: Video Blog
+        url: "#"
+    followUs:
+    - icon: github
+      url: "https://github.com/lucperkins"
+
+

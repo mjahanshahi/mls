@@ -1,0 +1,5 @@
+theme = "hugo-fresh"
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Meta-Logical Solutions"
+#ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
